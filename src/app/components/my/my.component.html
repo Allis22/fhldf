@@ -1,11 +1,25 @@
 <div class="task">
-    <h4>Hello</h4>
-    <p>description</p>
-    <select>
+  <div class="wel">
+    <h4>{{title}}</h4>
+    <p>{{description}}</p>
+    <img class="ima" src="assets\list.png" alt="404 Error" />
+  </div>
+  <div class="us">
+    <label>Usuario</label>
+    <input type="text" placeholder="Enter your user">
+    <label>Contrasena</label>
+    <input type="password" placeholder="Enter your password">
+  </div>
+  <div class="in">
+    <button [routerLink]="['**']">Log In</button>
+    <a href="**">Sing Up</a>
+  </div>
+</div>
+
+
+<!---<select>
       <option value="To Do">To Do</option>
       <option value="In Progress">In Progress</option>
       <option value="Done">Done</option>
     </select>
-    <button [routerLink]="['Home']">Home</button>
-    
-  </div>
+-->
